@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas absolutas
+    cm, mm, in, px, pt, pc
+    
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    16px geralmente = 1em
+    Recomendação: px e em
+    */
+    font-size: 1em;
+}
+h1{
+    /* 
+    shorthand font
+    */
+    font: italic bolder 3em ;
+}
