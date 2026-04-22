@@ -36,22 +36,47 @@ header a:hover {
     text-decoration: underline;
     color: white;
 }
-body {
-    position: relative;
-}
-main {
-    position: absolute;
-    left: -170px;
-    width: 100%;
-}
 section {
     height: 100vh;
-    border: 1px solid black;
-    font-family: var(--font-sriracha);
-    white-space: pre;
-    font-size: 4em;
-    padding-bottom: 150px;
+    margin-bottom: 50px;
 }
-.photo {
-    background-image: url();
+section p {
+    white-space: pre;
+    font-family: var(--font-sriracha);
+    font-size: 3em;
+}
+section.photo {
+    background-image: url('../imagens/background001.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section.photo p{
+    color: white; 
+}
+section.photo2 p{
+    color: white; 
+}
+section.photo2 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer {
+    background-color: black;
+    padding: 5px;
+}
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
 }
