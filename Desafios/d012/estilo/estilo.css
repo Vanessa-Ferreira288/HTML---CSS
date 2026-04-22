@@ -1,0 +1,57 @@
+@charset 'UTF-8';
+/*Fonte PASSION ONE */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* Sriracha */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+
+    --font-passion: "Passion One", sans-serif;
+    --font-sriracha: "Sriracha", cursive;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 200px;
+    padding: 30px;
+    background-color: black;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+header h1 {
+    font-family: var(--font-passion);
+    font-size: 8em;
+    padding-top: 30px ;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+header a:hover {
+    text-decoration: underline;
+    color: white;
+}
+body {
+    position: relative;
+}
+main {
+    position: absolute;
+    left: -170px;
+    width: 100%;
+}
+section {
+    height: 100vh;
+    border: 1px solid black;
+    font-family: var(--font-sriracha);
+    white-space: pre;
+    font-size: 4em;
+    padding-bottom: 150px;
+}
+.photo {
+    background-image: url();
+}
